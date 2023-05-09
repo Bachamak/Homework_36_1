@@ -1,0 +1,75 @@
+#open-dialogue {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #000;
+    color: DodgerBlue;
+    font-weight: bold;
+}
+
+#dialogue-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#dialogue {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 110px;
+    width: 500px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.1)
+}
+
+#dialogue h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #000;
+    text-align: left;
+}
+
+#dialogue p {
+    text-align: left;
+    color: Grey;
+}
+
+#close-dialogue-n {
+    position: absolute;
+    right: 70px; 
+    font-size: 13px;
+    margin: 5px;
+    down: 0;
+    color: DodgerBlue;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    
+}
+#close-dialogue-y {
+    position: absolute;
+    down: 5px;
+    right: 10px; 
+    font-size: 13px;
+    margin: 5px;
+    down: 0;
+    color: DodgerBlue;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+}
